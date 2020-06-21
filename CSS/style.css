@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&family=Merriweather&family=Pacifico&display=swap');
+.navbar-brand {
+ font-size: 18px;
+ font-weight: 600;
+}
+.nav-link, .dropdown-item {
+ font-size: 15px;
+ font-weight: 600;
+ text-transform: uppercase;
+}
+nav li {
+ padding: 0 18px;
+}
+nav li.active, nav li.active:before {
+ background-color: rgba(0, 0, 0, 0.1);
+ border-radius: 5px;
+}
+
+/* body */
+
+body {
+  background-color: #FFB6C1;
+}
+
+  h3
+  {
+  font-family: 'Balsamiq Sans', cursive;
+  font-weight: 700;
+  color: #FF1493;
+  }
+
+  p
+  {
+  font-family: 'Merriweather', serif;
+  font-weight: 400;
+  }
+
+  h4
+  {
+  font-family: 'Pacifico', cursive;
+  font-weight: 700;
+  }
+  /* CUSTOMIZE THE CAROUSEL */
+
+  .carousel a:hover {
+    background: rgba(255, 255, 255, 0.2);
+  }
+  .carousel p {
+    margin: 5px 20px;
+    font-size: 30px;
+    color: #008000;
+  }
+
+/* Header, footer */
+
+header, footer {
+  background-color: #FF69B4;
+  margin-top: 4px;
+  font: bold 15px georgia;
+}
+
+/* Social icons */
+i {
+  color: #fff;
+  padding: 0 12px;
+}
+/* Link & Buttons */
+a.btn, button {
+font-family: 'Balsamiq Sans', cursive;
+font-weight: 600;
+letter-spacing: 2px;
+}
+
+p{
+  font-family: 'MuseoModerno', cursive;
+  font-weight: 700;
+  color: #C71585;
+}
